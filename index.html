@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foody</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width : 1300px" href="phone.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.png" alt="Foody">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#contact">About Us</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#client-section">User Account</a></li>
+        </ul>
+        <ul>
+            <li class="item"><button class="bttn">Call Us</button></li>
+            <li class="item"><button class="bttn">Sign Up</button></li>
+            <li class="item"><button class="bttn">Log in</button></li>
+        </ul>
+
+    </nav>
+    <section id="home">
+        <h2 class="home-p">Discover the best food & drinks</h2>
+        <p>Explore top restaurants, cafes, pubs, and bars in your area, based on trends </p>
+        <p>Restaurants in your pocket </p>
+        
+        <label for="City" id="bo">Select Your Area : </label>
+        <select name="City" id="boxx" placeholder="Select Your Area ">
+            <option value="Kolkata">Kolkata</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Use Map">Use Map to Locate Yourself</option></select>
+            <button class="btn">Order Now</button>
+            <!-- <input type="text" name="searchbar" id="boxxx" placeholder="Search restaurants,cafes, pubs, and bars in Kolkata,"> -->
+           
+        </select>
+    </section>
+
+    <section class="services-container">
+        <!-- <h1 class="h-primary center">Services</h1> -->
+        <div id="service">
+            <div class="box">
+                <img src="img3.png" alt="">
+                <h2 class="h-secondary center">Order Online</h2>
+                <p class="center">stay home and order to your doorstape<br>Enjoy India's fastest delivery</p>
+            </div>
+            <div class="box">
+                <img src="img6.jpg" alt="">
+                <h2 class="h-secondary center">Book your Dining</h2>
+                <p class="center">Book the city's best dining venus  for yor <br> partner or your family</p>
+            </div>
+            <div class="box">
+                <img src="img7.jpeg" alt="">
+                <h2 class="h-secondary center">catering services</h2>
+                <p class="center">Book catering services for wedding,birthday<br> or any occesation</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h2 class="h-primary center">Visit Us On</h2>
+        <div id="client">
+            <div class="client-item">
+                <img src="icon1.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="icon2.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="icon4.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="icon3.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2 class="h-primary center">Say Somthing</h2>
+        <div id="contact-box">
+            <form action="">
+                <div class="from-group">
+                    <label for="name">Name :</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                <div>
+                <div class="from-group">
+                    <label for="name">phone Number :</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your Phone Number" required>
+                <div>
+                <div class="from-group">
+                    <label for="name">E-mail :</label>
+                    <input type="email" name="name" id="name" placeholder="Enter your name" required>
+                <div>
+                <div class="from-group">    
+                    <label for="name">Address :</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your Address" required>
+                </div>
+                <div class="from-group">    
+                    <label for="textarea">Write Somthing :</label>
+                    <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Weite Somthing About us" required></textarea>
+                </div>
+            </form>
+        </div>
+        <button class="Submit">Submit Now</button>
+    </section>
+    <footer>
+        <div class="center">
+            copyright &copy;www.foody.com . All rights reserved
+        </div>
+    </footer>
+</body>
+</html>
